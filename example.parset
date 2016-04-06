@@ -1,0 +1,19 @@
+% This parset is to be used for CREPE - Cosmic Ray Electron Propogation codE.
+% This parset allows the user to define inputs to run the CREPE model in addition the output directory name.
+
+% Diffusion coefficient in radial direction
+diffcoeffr 2.8e28
+% Number of iterations
+iter 100000
+% Diffusion in vertical direction
+diffcoeffz 2.8e28
+% input numpy array
+inputarray 
+% output numpy array
+outputarray outtest.npy
+% Input source distribution
+inputsource sourcefunction15kpc.txt
+% Input magnetic field distribution
+inputmagnetic bfield15kpc300.txt
+% output directory name  
+outputdir makingplotsfortalk
